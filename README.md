@@ -16,11 +16,11 @@
 
 刷入Uboot（每一个路由器都不一样，具体的刷入方法网上搜索你自己买的路由器怎么刷Uboot系统），这一步是防止刷入固件时刷入了不对应的固件导致进不了设备，如果遇到这个情况最好的办法是按路由器的RESET键重置路由器到正常亮灯后，用备用的短网线连接路由器然后再连接电脑的网口
 
-<img src="file:///E:/Pictures/教程/1.png" title="" alt="我" width="558">
+<img src="img/1.png" title="" alt="" width="558">
 
 IP分配手动设置
 
-<img src="file:///E:/Pictures/教程/2.png" title="" alt="我" width="324">
+<img src="img/2.png" title="" alt="" width="324">
 
 可以这样设置了之后，在浏览器的网址栏输入网关就进去Uboot系统了，然后再导入可以用的固件。
 
@@ -34,7 +34,7 @@ IP分配手动设置
 
 刷入了之后界面是这样的，我这里是安装了argon的美化界面可以在网上搜索其他美化界面
 
-<img src="file:///E:/Pictures/教程/3.png" title="" alt="我" width="756">
+<img src="img/3.png" title="" alt="" width="756">
 
 **第三步** 
 
@@ -42,31 +42,31 @@ IP分配手动设置
 
 **第四步** **这是最重要的一步**
 
-在<mark>网络->无线</mark> 处查看WiFi设置 ![我](E:\Pictures\教程\4.png)
+在<mark>网络->无线</mark> 处查看WiFi设置 <img src="img/4.png" title="" alt="">
 
 主要看信道那里，通常路由器已经把这2个信号给出来了2.4G与5G信号。
 
 下面有SSID这个就是wifi信号，如果没有给出就点击添加，有了就点编辑来设置WiFi信号
 
-![我](E:\Pictures\教程\5.png)
+<img src="img/5.png" title="" alt="">
 
 工作频率那里主要是
 
-1、n：n对应的是支持[802.11n](https://zhida.zhihu.com/search?content_id=235783454&content_type=Article&match_order=1&q=802.11n&zhida_source=entity)协议，也就是WiFi4，速率多为150M、300M、450M，并且只支持2.4G频段。
+1、n：n对应的是支持802.11n协议，也就是WiFi4，速率多为150M、300M、450M，并且只支持2.4G频段。
 
-2、ac：ac对应的是支持[802.11ac](https://zhida.zhihu.com/search?content_id=235783454&content_type=Article&match_order=1&q=802.11ac&zhida_source=entity)协议，也被称作WiFi5，速率多为600M至1900M之间，支持2.4G、5.8G两个频段。
+2、ac：ac对应的是支持802.11ac协议，也被称作WiFi5，速率多为600M至1900M之间，支持2.4G、5.8G两个频段。
 
-3、ax：ax对应的是支持[802.11ax](https://zhida.zhihu.com/search?content_id=235783454&content_type=Article&match_order=1&q=802.11ax&zhida_source=entity)协议也就是支持WiFi6，速率多为1800M至7200M之间，支持2.4G、5.8G两个频段，部分路由器拥有一个频道管理功能，支持三频。
+3、ax：ax对应的是支持802.11ax协议也就是支持WiFi6，速率多为1800M至7200M之间，支持2.4G、5.8G两个频段，部分路由器拥有一个频道管理功能，支持三频。
 
 信道可以根据自己设置，2.4G最好在1号信道，通道宽度2.4G设置为20MHz，5G为80MHz
 
 160MHz需要手机与路由器支持，并且国内大部分地区不可用，所以设置为80MHz
 
-<img title="" src="file:///E:/Pictures/教程/6.png" alt="我" width="636" data-align="inline">
+<img title="" src="img/6.png" alt="" width="636" data-align="inline">
 
 在这里可以设置一些WiFi名字与属性主要是ESSID，这个就是发散出来的WiFi信号的名字，隐藏ESSID就可以把WIFI隐藏了。
 
-![我](E:\Pictures\教程\7.png)
+<img src="img/7.png" title="" alt="">
 
 无线安全就可以设置加密方式与密码了。
 
